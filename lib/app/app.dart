@@ -8,14 +8,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'My App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      home: const Scaffold(
-        body: Center(
-          child: Text('Flutter App'),
-        ),
-      ),
+      theme: ThemeData(useMaterial3: true),
+      home: const Scaffold(body: Center(child: Text('Flutter App'))),
     );
   }
 }
